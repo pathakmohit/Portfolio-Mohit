@@ -954,28 +954,28 @@ body {
   z-index: 2;
 }
 /* ABOUT PAGE SPECIFIC STYLES */
-.about-section {
-  padding: 120px 0 80px;
-  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
-}
-
+/* ABOUT PAGE – TEXT TUNING */
 .about-content {
-  background: rgba(255,255,255,0.9);
-  backdrop-filter: blur(10px);
-  padding: 3rem;
-  border-radius: 25px;
-  border: 1px solid rgba(255,255,255,0.2);
-  box-shadow: 0 20px 60px rgba(0,0,0,0.1);
+  color: #2d3748;            /* dark text inside the white glass card */
 }
 
-.experience-highlight {
-  transition: all 0.3s ease;
+.hero-description {
+  font-size: 1.05rem;        /* slightly larger and cleaner */
+  color: #2d3748;            /* dark gray instead of faded white */
+  line-height: 1.8;
 }
 
-.experience-highlight:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 40px rgba(102,126,234,0.2);
+.experience-highlight h5 {
+  color: #1a202c;
+  font-weight: 700;
 }
+
+.experience-highlight p {
+  color: #2d3748;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
 
 .service-list {
   list-style: none;
@@ -1535,6 +1535,7 @@ body {
     font-size: 1.6rem;
   }
 }
+
 
 
 
