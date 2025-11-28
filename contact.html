@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact | Mohit Pathak</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Particle Background -->
+  <div id="particles-js"></div>
+
+  <!-- Glass Navigation -->
+  <nav class="glass-nav">
+    <div class="container">
+      <a href="index.html" class="logo-animate"><span class="logo-gradient">MP</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="nav-link-animate">Home</a></li>
+        <li><a href="about.html" class="nav-link-animate">About</a></li>
+        <li><a href="skills.html" class="nav-link-animate">Skills</a></li>
+        <li><a href="projects.html" class="nav-link-animate">Projects</a></li>
+        <li><a href="certifications.html" class="nav-link-animate">Certifications</a></li>
+        <li><a href="contact.html" class="nav-link-animate active">Contact</a></li>
+      </ul>
+      <a href="Mohit-Pathak-Resume.pdf" target="_blank" class="btn-gradient-primary btn-glow">
+        <i class="fas fa-download me-2"></i>Resume
+      </a>
+    </div>
+  </nav>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="container text-center">
+      <h1 class="page-title animate-on-scroll">Get In Touch</h1>
+      <p class="page-subtitle animate-on-scroll">
+        Open to IT Support, Cloud Security, AI/ML opportunities & collaborations
+      </p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact-section">
+    <div class="container">
+      <div class="row g-5 align-items-center">
+        <!-- Contact Info -->
+        <div class="col-lg-6 animate-on-scroll">
+          <div class="contact-card">
+            <h3 class="contact-title">
+              <i class="fas fa-paper-plane me-3"></i>Let's Connect
+            </h3>
+            <p class="contact-desc mb-4">
+              Open to IT Support, System Administration, and Security/Cloud roles. 
+              Reach out for opportunities, collaborations, or questions about my AI/ML and cybersecurity projects.
+            </p>
+
+            <!-- Email -->
+            <div class="contact-item mb-4">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-details">
+                <div class="contact-label">Email</div>
+                <a href="mailto:mohitpathak@example.com" class="contact-link email-copy" data-email="pathakmohit3666@gmail.com">
+                  pathakmohit3666@gmail.com
+                  <i class="fas fa-copy ms-2 copy-icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Location -->
+            <div class="contact-item mb-5">
+              <div class="contact-icon">
+                <i class="fas fa-location-dot"></i>
+              </div>
+              <div class="contact-details">
+                <div class="contact-label">Location</div>
+                <div class="contact-text">Rajkot, India</div>
+              </div>
+            </div>
+
+            <!-- Social Links -->
+            <div class="contact-social">
+              <h6 class="social-title mb-3">
+                <i class="fas fa-share-alt me-2"></i>Find Me Online
+              </h6>
+              <div class="social-links-hero">
+                <a href="https://github.com/pathakmohit" class="social-icon-hero" target="_blank" title="GitHub">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/mohit-pathak-766892220/" class="social-icon-hero" target="_blank" title="LinkedIn">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://x.com/PathakMohit12" class="social-icon-hero" target="_blank" title="Twitter">
+                  <i class="fab fa-x-twitter"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="col-lg-6 animate-on-scroll">
+          <div class="contact-form-card">
+            <h3 class="form-title">
+              <i class="fas fa-comment-dots me-3"></i>Quick Message
+            </h3>
+            <form id="contactForm" class="contact-form">
+              <div class="form-group">
+                <input type="text" class="form-input" name="name" placeholder="Your Name" required>
+                <label class="form-label">Full Name</label>
+                <span class="input-icon"><i class="fas fa-user"></i></span>
+              </div>
+              
+              <div class="form-group">
+                <input type="email" class="form-input" name="email" placeholder="your@email.com" required>
+                <label class="form-label">Email Address</label>
+                <span class="input-icon"><i class="fas fa-envelope"></i></span>
+              </div>
+              
+              <div class="form-group">
+                <textarea class="form-input" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+                <label class="form-label">Message</label>
+                <span class="input-icon"><i class="fas fa-comment"></i></span>
+              </div>
+              
+              <button type="submit" class="btn-gradient-primary btn-lg btn-glow form-submit">
+                <span class="submit-text">Send Message</span>
+                <span class="submit-loading">
+                  <i class="fas fa-spinner fa-spin"></i> Sending...
+                </span>
+              </button>
+            </form>
+            <div class="form-note">
+              <i class="fas fa-info-circle me-2"></i>
+              Update form action with Formspree, Netlify, or your backend endpoint
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="container text-center">
+      <div class="animate-on-scroll">
+        <h2 class="cta-title mb-4">Ready to Start Your Project?</h2>
+        <p class="cta-subtitle mb-5">IT Security • AI/ML • Cloud Solutions</p>
+        <a href="mailto:pathakmohit3666@gmail.com" class="btn btn-outline-light-cta btn-lg">
+          <i class="fas fa-envelope me-2"></i>Send Email Now
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer-modern">
+    <div class="container">
+      <div class="text-center">
+        <p class="mb-3">© 2025 Mohit Pathak • Always available for new opportunities</p>
+        <div class="footer-social">
+          <a href="https://github.com/pathakmohit" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/mohit-pathak-766892220/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://x.com/PathakMohit12" target="_blank"><i class="fab fa-x-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
